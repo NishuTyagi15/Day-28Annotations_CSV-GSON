@@ -1,4 +1,5 @@
 package com.JavaAnnotations;
+
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Inherited;
@@ -16,5 +17,4 @@ public @interface MethodInfo {
     String date();
     int revision() default 1;
     String comments();
-
 }
